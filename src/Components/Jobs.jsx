@@ -44,23 +44,23 @@ function Jobs() {
             </div>
 
 
-            <div class="row flex justify-center mt-4">
-                                <div class="col-lg-8 job">
-                                    <ul class="job-list-menu nav nav-pills nav-justified flex-column flex-sm-row mb-4" id="pills-tab" role="tablist">
-                                        <li class="nav-item" role="presentation">
+            <div className="row flex justify-center mt-4">
+                                <div className="col-lg-8 job">
+                                    <ul className="job-list-menu nav nav-pills nav-justified flex-column flex-sm-row mb-4" id="pills-tab" role="tablist">
+                                        <li className="nav-item" role="presentation">
                                         <button  className={`nav-link ${activeTab === 'recent-jobs' ? 'active' : ''}`}  id="recent-jobs-tab" data-bs-toggle="pill" data-bs-target="#recent-jobs" type="button" role="tab" aria-controls="recent-jobs" aria-selected={activeTab === 'recent-jobs'} onClick={() => handleTabClick('recent-jobs')} >Recent Jobs  </button>
                                         </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="featured-jobs-tab" data-bs-toggle="pill" data-bs-target="#featured-jobs" type="button" role="tab" aria-controls="featured-jobs" aria-selected="false">Featured Jobs</button>
+                                        <li className="nav-item" role="presentation">
+                                            <button className="nav-link" id="featured-jobs-tab" data-bs-toggle="pill" data-bs-target="#featured-jobs" type="button" role="tab" aria-controls="featured-jobs" aria-selected="false">Featured Jobs</button>
                                         </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="freelancer-tab" data-bs-toggle="pill" data-bs-target="#freelancer" type="button" role="tab" aria-controls="freelancer" aria-selected="false">Freelancer</button>
+                                        <li className="nav-item" role="presentation">
+                                            <button className="nav-link" id="freelancer-tab" data-bs-toggle="pill" data-bs-target="#freelancer" type="button" role="tab" aria-controls="freelancer" aria-selected="false">Freelancer</button>
                                         </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="part-time-tab" data-bs-toggle="pill" data-bs-target="#part-time" type="button" role="tab" aria-controls="part-time" aria-selected="false">Part Time</button>
+                                        <li className="nav-item" role="presentation">
+                                            <button className="nav-link" id="part-time-tab" data-bs-toggle="pill" data-bs-target="#part-time" type="button" role="tab" aria-controls="part-time" aria-selected="false">Part Time</button>
                                         </li>
-                                        <li class="nav-item" role="presentation">
-                                            <button class="nav-link" id="full-time-tab" data-bs-toggle="pill" data-bs-target="#full-time" type="button" role="tab" aria-controls="full-time" aria-selected="false">Full Time</button>
+                                        <li className="nav-item" role="presentation">
+                                            <button className="nav-link" id="full-time-tab" data-bs-toggle="pill" data-bs-target="#full-time" type="button" role="tab" aria-controls="full-time" aria-selected="false">Full Time</button>
                                         </li>
                                     </ul>
                                 </div>
@@ -154,8 +154,8 @@ function Jobs() {
  ))}
  {/*end job-box*/}
  
- <div className="text-center mt-4 pt-2 mb-4">
- <a href="" className="btn btn-primary text-white">View More<i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i></a>
+ <div className="text-center mt-4 pt-2 mb-4 hover:translate-x-2 hover:translate-y-[-10px] duration-1000">
+ <a href="" className="btn btn-primary text-white bg-[#766df4] hover:bg-[#766df9]">View More<i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i></a>
  </div>
 
 </div>
@@ -243,8 +243,8 @@ function Jobs() {
                 ))}
              {/*end job-box*/}
             
-             <div className="text-center mt-4 pt-2 mb-4">
-             <a href="" className="btn btn-primary text-white">View More<i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i></a>
+             <div className="text-center mt-4 pt-2 mb-4 hover:translate-x-2 hover:translate-y-[-10px] duration-1000">
+             <a href="" className="btn btn-primary text-white bg-[#766df4] hover:bg-[#766df9]">View More<i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i></a>
              </div>
             </div>
             {/*end featured-jobs-tab*/}
@@ -328,8 +328,8 @@ function Jobs() {
              ))}
              {/*end job-box*/}
            
-             <div className="text-center mt-4 pt-2 mb-4">
-             <a href="" className="btn btn-primary text-white">View More<i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i></a>
+             <div className="text-center mt-4 pt-2 mb-4 hover:translate-x-2 hover:translate-y-[-10px] duration-1000">
+             <a href="" className="btn btn-primary text-white bg-[#766df4] hover:bg-[#766df9]">View More<i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i></a>
              </div>
             </div>
             {/*end freelancer-tab*/}
@@ -413,8 +413,8 @@ function Jobs() {
              ))}
              {/*end job-box*/}
              
-             <div className="text-center mt-4 pt-2 mb-4">
-             <a href="" className="btn btn-primary text-white">View More<i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i></a>
+             <div className="text-center mt-4 pt-2 mb-4 hover:translate-x-2 hover:translate-y-[-10px] duration-1000">
+             <a href="" className="btn btn-primary text-white bg-[#766df4] hover:bg-[#766df9]">View More<i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i></a>
              </div>
             </div>
             {/*end part-time-tab*/}
@@ -496,8 +496,8 @@ function Jobs() {
              ))}
              {/*end job-box*/}
              
-             <div className="text-center mt-4 pt-2 mb-4">
-             <a href="" className="btn btn-primary text-white">View More<i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i></a>
+             <div className="text-center mt-4 pt-2 mb-4 hover:translate-x-2 hover:translate-y-[-10px] duration-1000">
+             <a href="" className="btn btn-primary text-white bg-[#766df4] hover:bg-[#766df9]">View More<i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i></a>
              </div>
             </div>
             {/*end full-time-tab*/}

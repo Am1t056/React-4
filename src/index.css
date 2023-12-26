@@ -8,8 +8,6 @@
   box-sizing: border-box;
   scroll-behavior: smooth;
 overscroll-behavior:none;
-text-decoration: none;
-list-style: none;
  
 }
 ul li a{

@@ -55,12 +55,15 @@ function Navbar() {
                     <div className="col-lg-3 col-md-10 col-sm-9 col-9 ">
                          <ul className='flex justify-end items-center'>
                           <li className='mr-2 d-block d-lg-none' onClick={handleNav}>{!nav?<AiOutlineMenu size={24}/>:<AiOutlineClose size={24}/>}</li>
-                          <li className='mr-4'><a className='' href=""><FaBell size={23} className='bell'/>
-                                 <div className='count absolute text-white text-[11px] top-[12px]  md:top-[55px] bg-[red] border-2 border-2-white'>
+                          <li className='mr-4'>
+                            <a  href="">
+                              <FaBell size={23} className='bell'/>
+                            </a>
+                            <div className='count absolute text-white text-[11px] top-[12px]  md:top-[55px] bg-[red] border-2 border-2-white'>
                                      3
                                  </div>
-                          </a></li>
-                          <li className='mr-2'><a className='' href=""><img className='w-[35px] h-[35px] rounded-full' src="https://themesdesign.in/jobcy-react/layout/assets/images/profile.jpg" alt="" /></a></li>
+                            </li>
+                          <li className='mr-2'><a  href=""><img className='w-[35px] h-[35px] rounded-full' src="https://themesdesign.in/jobcy-react/layout/assets/images/profile.jpg" alt="" /></a></li>
                           <li className='d-none d-md-block'><a className='text-[13px] font-medium w-full' href="">Hi, Jansh</a></li>
                          </ul>
 
@@ -116,12 +119,14 @@ function Navbar() {
                     <div className="col-lg-3 col-md-10 col-sm-9 col-9 ">
                          <ul className='flex justify-end items-center'>
                           <li className='mr-2 d-block d-lg-none' onClick={handleNav}>{!nav?<AiOutlineMenu size={24}/>:<AiOutlineClose size={24}/>}</li>
-                          <li className='mr-4'><a className='' href=""><FaBell size={23} className='bell'/>
-                                 <div className='count absolute text-white text-[11px] top-[12px]  bg-[red] border-2 border-2-white'>
+                          <li className='mr-4'><a  href="">
+                            <FaBell size={23} className='bell'/>    
+                          </a>
+                          <div className='count absolute text-white text-[11px] top-[12px]  bg-[red] border-2 border-2-white'>
                                      3
                                  </div>
-                          </a></li>
-                          <li className='mr-2'><a className='' href=""><img className='w-[35px] h-[35px] rounded-full' src="https://themesdesign.in/jobcy-react/layout/assets/images/profile.jpg" alt="" /></a></li>
+                          </li>
+                          <li className='mr-2'><a href=""><img className='w-[35px] h-[35px] rounded-full' src="https://themesdesign.in/jobcy-react/layout/assets/images/profile.jpg" alt="" /></a></li>
                           <li className='d-none d-md-block'><a className='text-[13px] font-medium w-full' href="">Hi, Jansh</a></li>
                          </ul>
 

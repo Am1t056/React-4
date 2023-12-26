@@ -14,7 +14,7 @@ function Hero() {
                                     </div>
                                     <form action="#">
                                         <div className="registration-form" >
-                                            <div className="row lg:grid grid-cols-3 ">
+                                            <div className="row  grid-cols-3 lg:grid ">
                                                 <div className=" lg:px-0 py-0 lg:pl-3  mt-2 md:mt-0 ">
                                                 <i class="fa-solid fa-briefcase absolute z-20 text-[#776df4] mt-3 ml-2 lg:ml-1 &nbsp; &nbsp;"></i>
 

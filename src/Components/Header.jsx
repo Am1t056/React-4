@@ -19,25 +19,27 @@ function Header() {
             <div className="row">
                 <div className="col-lg-6 col-md-7">
                    <ul className='flex'>
-                    <li className='text-[13px]'><i class="fa-solid fa-location-dot"></i>&nbsp;Your Location: <a className='' href="">North California</a></li>
-                    <li className='text-[15px]'> <a className='px-2' href=""><i class="fa-brands fa-whatsapp"></i></a></li>
-                    <li className='text-[15px]'> <a className=' px-2' href=""><i class="bi bi-messenger"></i></a></li>
-                    <li className='text-[15px]'> <a className='px-2' href=""><i class="fa-brands fa-instagram"></i></a></li>
-                    <li className='text-[15px]'> <a className='px-2' href=""><i class="fa-regular fa-envelope"></i></a></li>
-                    <li className='text-[15px]'> <a className='px-2' href=""><i class="fa-brands fa-twitter"></i></a></li>
+                    <li className='text-[13px]'><i className="fa-solid fa-location-dot"></i>&nbsp;Your Location: <a className=' text-[#495057]' href="">North California</a></li>
+                    <li className='text-[15px]'> <a className='px-2 text-[#495057]' href=""><i className="fa-brands fa-whatsapp"></i></a></li>
+                    <li className='text-[15px]'> <a className=' px-2 text-[#495057]' href=""><i className="bi bi-messenger"></i></a></li>
+                    <li className='text-[15px]'> <a className='px-2 text-[#495057]' href=""><i className="fa-brands fa-instagram"></i></a></li>
+                    <li className='text-[15px]'> <a className='px-2 text-[#495057]' href=""><i className="fa-regular fa-envelope"></i></a></li>
+                    <li className='text-[15px]'> <a className='px-2 text-[#495057]' href=""><i className="fa-brands fa-twitter"></i></a></li>
 
                    </ul>
 
                 </div>
                 <div className="col-lg-6 col-md-5">
                       <ul className='flex justify-end items-center'>
-                        <li><i class="fa-solid fa-lock"></i>&nbsp;<a className='' href="">Sign Up</a></li>
+                        <li><i className="fa-solid fa-lock"></i>&nbsp;<a className=' text-[#495057]' href="">Sign Up</a></li>
                        <li>
-                        <div className="dropdown" onMouseEnter={handleHover} onMouseLeave={handleHover} >
+                       <div className="dropdown" onMouseEnter={handleHover} onMouseLeave={handleHover}>
+
                               <button className="btn" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false"  >
                               <img className='w-[24.38px] h-[16px]' src="https://themesdesign.in/jobcy-react/layout/assets/images/flags/us.jpg" alt="" />
                               </button>
-                              <div className={`dropdown-menu${isOpen ? ' show' : ''}`} aria-labelledby="dropdownMenuButton" >
+                              <div className={`dropdown-menu${isOpen ? ' show' : ''}`} aria-labelledby="dropdownMenuButton">
+
                                     {/* Dropdown Content */}
                                     <a className="dropdown-item flex items-center hover:text-[#766df4] hover:scale-100 duration-100" href="#">
                                     <img className='w-[24.38px] h-[16px] mr-3' src="https://themesdesign.in/jobcy-react/layout/assets/images/flags/us.jpg" alt="" /> English

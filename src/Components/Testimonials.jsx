@@ -39,7 +39,7 @@ function Testimonials() {
       >
         <SwiperSlide>
        <div className="card testi-box border-none bg-[#f1f0fe]">
-  <div className="card-body py-5">
+  <div className="card-body py-5 bg-[#f1f0fe]">
     <div className="mb-4">
       <img className='w-[200px] h-[50px] mx-auto' src="https://themesdesign.in/jobcy-react/layout/assets/images/logo/instagram.svg" width={12} height={10}  />
     </div>

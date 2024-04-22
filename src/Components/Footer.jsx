@@ -40,7 +40,7 @@ function Footer() {
                 <div className=' col-lg-6 flex flex-wrap justify-between my-0 md:my-2'>
              <div className='flex items-center flex-col gap-1'>
                 <h6 className='font-bold  text-[#766df4] text-left'>Solutions</h6>
-                <ul className='text-gray-600 font-medium py-1'>
+                <ul className='text-gray-600 font-medium py-1 px-0'>
                     <li className='py-2 w-full'>Analytics</li>
                     <li className='py-2 w-full'>Marketing</li>
                     <li className='py-2 w-full'>Commerce</li>
@@ -52,7 +52,7 @@ function Footer() {
 
              <div className='flex items-center flex-col gap-1'>
                 <h6 className='font-bold  text-[#766df4] text-left'>Support</h6>
-                <ul className='text-gray-600 font-medium py-1'>
+                <ul className='text-gray-600 font-medium py-1 px-0'>
                     <li className='py-2 w-full'>Pricing</li>
                     <li className='py-2 w-full'>Guides</li>
                     <li className='py-2 w-full'>API Status</li>
@@ -63,7 +63,7 @@ function Footer() {
 
              <div className='flex items-center flex-col gap-1'>
                 <h6 className='font-bold  text-[#766df4] text-left'>Company</h6>
-                <ul className='text-gray-600 font-medium py-1'>
+                <ul className='text-gray-600 font-medium py-1 px-0'>
                     <li className='py-2 w-full'>About</li>
                     <li className='py-2 w-full'>Blog</li>
                     <li className='py-2 w-full'>Jobs</li>
@@ -76,7 +76,7 @@ function Footer() {
              
              <div className='flex items-center flex-col gap-1'>
                 <h6 className='font-bold  text-[#766df4] text-left'>Legal</h6>
-                <ul className='text-gray-600 font-medium py-1'>
+                <ul className='text-gray-600 font-medium py-1 px-0'>
                     <li className='py-2 w-full'>Policy</li>
                     <li className='py-2 w-full'>Claim</li>
                     <li className='py-2 w-full'>Terms</li>

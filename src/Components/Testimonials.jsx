@@ -41,7 +41,7 @@ function Testimonials() {
        <div className="card testi-box border-none bg-[#f1f0fe]">
   <div className="card-body py-5">
     <div className="mb-4">
-      <img className='w-[200px] h-[50px] mx-auto' src="https://themesdesign.in/jobcy-react/layout/assets/images/logo/instagram.svg" width={12} height={10}  alt />
+      <img className='w-[200px] h-[50px] mx-auto' src="https://themesdesign.in/jobcy-react/layout/assets/images/logo/instagram.svg" width={12} height={10}  />
     </div>
     <p className="testi-content lead text-muted mb-4">" Very well thought out and articulate communication.
       Clear milestones, deadlines and fast work. Patience. Infinite patience. No
@@ -57,7 +57,7 @@ function Testimonials() {
         <div className="card testi-box border-none bg-[#f1f0fe]">
   <div className="card-body py-5">
     <div className="mb-4">
-      <img className='w-[200px] h-[50px] mx-auto' src="https://themesdesign.in/jobcy-react/layout/assets/images/logo/wordpress.svg" alt />
+      <img className='w-[200px] h-[50px] mx-auto' src="https://themesdesign.in/jobcy-react/layout/assets/images/logo/wordpress.svg" />
     </div>
     <p className="testi-content lead text-muted mb-4">" Very well thought out and articulate communication.
       Clear milestones, deadlines and fast work. Patience. Infinite patience. No
@@ -71,7 +71,7 @@ function Testimonials() {
         <div className="card testi-box border-none bg-[#f1f0fe]">
   <div className="card-body py-5">
     <div className="mb-4">
-      <img className='w-[200px] h-[50px] mx-auto' src="https://themesdesign.in/jobcy-react/layout/assets/images/logo/mailchimp.svg" alt />
+      <img className='w-[200px] h-[50px] mx-auto' src="https://themesdesign.in/jobcy-react/layout/assets/images/logo/mailchimp.svg" />
     </div>
     <p className="testi-content lead text-muted mb-4">" Very well thought out and articulate communication.
       Clear milestones, deadlines and fast work. Patience. Infinite patience. No

@@ -149,3 +149,12 @@ swiper {
   margin-right: 5px;
   
 }
+
+
+.stickynav{
+  animation:fadein 0.8s ease-in;
+}
+@keyframes fadein {
+  0%{transform: translateY(-100%)}
+  100%{transform: translateY(0%)}
+}

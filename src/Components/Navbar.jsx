@@ -33,7 +33,7 @@ function Navbar() {
   return (
     <>
 
-    <nav className='py-3 container-fluid bg-[#ffffff] '>
+    <nav className={!setShowStickyHeader? 'py-3 container-fluid bg-[#ffffff]': 'fixed shadow-lg top-0 left-0 w-full z-50  py-3 bg-white'}>
         <div className="container">
             <div className="row">
                     <div className="col-lg-1 col-md-2 col-sm-3 col-3 py-1">
@@ -59,7 +59,7 @@ function Navbar() {
                             <a  href="">
                               <FaBell size={23} className='bell'/>
                             </a>
-                            <div className='count absolute text-white text-[11px] top-[12px]  md:top-[55px] bg-[red] border-2 border-2-white'>
+                            <div className='count absolute text-white text-[11px] top-[12px]  md:top-[12px] bg-[red] border-2 border-2-white'>
                                      3
                                  </div>
                             </li>
@@ -96,7 +96,7 @@ function Navbar() {
 
 
 {/*STICKY NAV BEGINS */}
-
+{/* 
 <nav className={!showStickyHeader?'fixed top-[-100%]':'fixed block top-0 w-full z-50 ease-in-out duration-400 py-3 bg-white'}>
 <div className="container">
             <div className="row">
@@ -152,7 +152,7 @@ function Navbar() {
             </div>
         </div>
       
-</nav>
+</nav> */}
 
 {/*STICKY NAV ENDS */}
 

@@ -11,7 +11,16 @@ function Swiper1() {
     <>
             <Swiper
         spaceBetween={30}
-        centeredSlides={true}
+      
+        centeredSlides={false}
+        loop={true}
+        breakpoints={{
+          992: {
+            slidesPerView: 1.2,
+            spaceBetween: 20,
+          },
+          
+        }}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,

@@ -8,7 +8,7 @@ function Footer() {
             <div className="row grid lg:grid-cols-3 items-center justify-center">
                 <div className=''>
                     <h4 className='text-white font-semibold text-[22.5px]'>Get New Jobs Notification!</h4>
-                    <p class=" text-[#f1f0fe] mb-0 text-[15px] py-1">Subscribe &amp; get all related jobs notification.</p>
+                    <p className=" text-[#f1f0fe] mb-0 text-[15px] py-1">Subscribe &amp; get all related jobs notification.</p>
                 </div>
                 <div className='flex justify-center items-center lg:col-span-2 flex-nowrap mt-2 md:mt-0'>
                     <form action="">
@@ -94,7 +94,7 @@ function Footer() {
         <div className="container py-2">
             <div className="row flex justify-center items-center">
                 <div className="col-lg-6 ">
-                          <p class="text-[#f1f0fe] text-center mb-0">
+                          <p className="text-[#f1f0fe] text-center mb-0">
                                     <script>document.write(new Date().getFullYear())</script>2023 © Amit - Job Listing Page
                                     
                                 </p>

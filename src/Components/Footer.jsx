@@ -12,8 +12,8 @@ function Footer() {
                 </div>
                 <div className='flex justify-center items-center lg:col-span-2 flex-nowrap mt-2 md:mt-0'>
                     <form action="">
-                    <input className='h-[36px] bg-transparent border rounded-md ' type="email" name='email' placeholder='Enter Your Email' />
-                    <button className='btn btn-primary hover:bg-[#766df6] ' >Subscribe</button>
+                    <input className='h-[36px] bg-transparent border rounded-md' type="email" name='email' placeholder='Enter Your Email' />
+                    <button className='btn  bg-[#766df4] hover:bg-[#766df6] text-white' >Subscribe</button>
                     </form>
                 </div>
                  
@@ -38,7 +38,7 @@ function Footer() {
                       </ul>
                 </div>
                 <div className=' col-lg-6 flex flex-wrap justify-between my-0 md:my-2'>
-             <div>
+             <div className='flex  flex-col'>
                 <h6 className='font-bold  text-[#766df4]'>Solutions</h6>
                 <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>Analytics</li>
@@ -50,7 +50,7 @@ function Footer() {
                 </ul>
              </div>
 
-             <div>
+             <div className='flex  flex-col'>
                 <h6 className='font-bold  text-[#766df4]'>Support</h6>
                 <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>Pricing</li>
@@ -61,7 +61,7 @@ function Footer() {
                 </ul>
              </div>
 
-             <div>
+             <div className='flex  flex-col'>
                 <h6 className='font-bold  text-[#766df4]'>Company</h6>
                 <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>About</li>
@@ -74,7 +74,7 @@ function Footer() {
              </div>
 
              
-             <div>
+             <div className='flex  flex-col'>
                 <h6 className='font-bold  text-[#766df4]'>Legal</h6>
                 <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>Policy</li>

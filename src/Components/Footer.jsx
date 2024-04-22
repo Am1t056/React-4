@@ -29,7 +29,7 @@ function Footer() {
                       <h1 className='text-[#766df4] text-[22.5px] font-extrabold shadow-2xl'>Jobcy</h1>
                       <p className="text-[#f1f0fe] py-2 w-full lg:w-[55%]">It is a long established fact that a reader will be of a page reader will be of at its layout.</p>
                       <p className='text-[14px] text-[#ffffff] font-medium' >Follow Us On:</p>
-                      <ul className='flex  items-center py-2 justify-between md:justify-start'>
+                      <ul className='flex  items-center py-2 justify-between md:justify-start px-0'>
                           <li className='w-[32px] h-[32px] border rounded-[50%] text-center py-1 hover:bg-[#766df4]'><a className='text-white' href=""><i className="fa-brands fa-facebook-f"></i></a></li>
                           <li className='w-[32px] h-[32px] border rounded-[50%] text-center py-1 ml-4 hover:bg-[#766df4]'><a className='text-white' href=""><i className="fa-brands fa-instagram"></i></a></li>
                           <li className='w-[32px] h-[32px] border rounded-[50%] text-center py-1 ml-4 hover:bg-[#766df4]'><a className='text-white' href=""><i className="fa-brands fa-linkedin"></i></a></li>

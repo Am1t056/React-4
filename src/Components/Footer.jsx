@@ -39,8 +39,8 @@ function Footer() {
                 </div>
                 <div className=' col-lg-6 flex flex-wrap justify-between my-0 md:my-2'>
              <div>
-                <h6 className='font-bold underline text-[#766df4]'>Solutions</h6>
-                <ul className='text-gray-600 font-medium py-1'>
+                <h6 className='font-bold  text-[#766df4]'>Solutions</h6>
+                <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>Analytics</li>
                     <li className='py-2'>Marketing</li>
                     <li className='py-2'>Commerce</li>
@@ -51,8 +51,8 @@ function Footer() {
              </div>
 
              <div>
-                <h6 className='font-bold underline text-[#766df4]'>Support</h6>
-                <ul className='text-gray-600 font-medium py-1'>
+                <h6 className='font-bold  text-[#766df4]'>Support</h6>
+                <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>Pricing</li>
                     <li className='py-2'>Guides</li>
                     <li className='py-2'>API Status</li>
@@ -62,8 +62,8 @@ function Footer() {
              </div>
 
              <div>
-                <h6 className='font-bold underline text-[#766df4]'>Company</h6>
-                <ul className='text-gray-600 font-medium py-1'>
+                <h6 className='font-bold  text-[#766df4]'>Company</h6>
+                <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>About</li>
                     <li className='py-2'>Blog</li>
                     <li className='py-2'>Jobs</li>
@@ -75,8 +75,8 @@ function Footer() {
 
              
              <div>
-                <h6 className='font-bold  underline text-[#766df4]'>Legal</h6>
-                <ul className='text-gray-600 font-medium py-1'>
+                <h6 className='font-bold  text-[#766df4]'>Legal</h6>
+                <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>Policy</li>
                     <li className='py-2'>Claim</li>
                     <li className='py-2'>Terms</li>

@@ -20,7 +20,7 @@ function Categories() {
                                 <span className='text-[#776df4]'><i className="fa-solid fa-desktop"></i></span>
                             </div>
                             <div className="popu-category-content mt-4">
-                            <a href="" className="text-dark ">
+                            <a href="" className="text-dark  no-underline">
                                 <h5 className="text-[18px] font-medium">IT &amp; Software</h5>
                             </a>
                             <p className="text-muted mb-0">2024 Jobs</p>
@@ -35,7 +35,7 @@ function Categories() {
                                 <span className='text-[#776df4]'><i className="fa-solid fa-desktop"></i></span>
                             </div>
                             <div className="popu-category-content mt-4">
-                            <a href="" className="text-dark ">
+                            <a href="" className="text-dark  no-underline">
                                 <h5 className="text-[18px] font-medium">Technology</h5>
                             </a>
                             <p className="text-muted mb-0">1250 Jobs</p>
@@ -49,7 +49,7 @@ function Categories() {
                                 <span className='text-[#776df4]'><i className="fa-solid fa-desktop"></i></span>
                             </div>
                             <div className="popu-category-content mt-4">
-                            <a href="" className="text-dark ">
+                            <a href="" className="text-dark  no-underline">
                                 <h5 className="text-[18px] font-medium">Government</h5>
                             </a>
                             <p className="text-muted mb-0">802 Jobs</p>
@@ -64,7 +64,7 @@ function Categories() {
                                 <span className='text-[#776df4]'><i className="fa-solid fa-desktop"></i></span>
                             </div>
                             <div className="popu-category-content mt-4">
-                            <a href="" className="text-dark ">
+                            <a href="" className="text-dark  no-underline">
                                 <h5 className="text-[18px] font-medium">Accounting/Finance</h5>
                             </a>
                             <p className="text-muted mb-0">577 Jobs</p>
@@ -78,7 +78,7 @@ function Categories() {
                                 <span className='text-[#776df4]'><i className="fa-solid fa-desktop"></i></span>
                             </div>
                             <div className="popu-category-content mt-4">
-                            <a href="" className="text-dark ">
+                            <a href="" className="text-dark  no-underline">
                                 <h5 className="text-[18px] font-medium">Construction/Facilities</h5>
                             </a>
                             <p className="text-muted mb-0">285 Jobs</p>
@@ -92,7 +92,7 @@ function Categories() {
                                 <span className='text-[#776df4]'><i className="fa-solid fa-desktop"></i></span>
                             </div>
                             <div className="popu-category-content mt-4">
-                            <a href="" className="text-dark ">
+                            <a href="" className="text-dark  no-underline">
                                 <h5 className="text-[18px] font-medium">Tele-Communications</h5>
                             </a>
                             <p className="text-muted mb-0">495 Jobs</p>
@@ -106,7 +106,7 @@ function Categories() {
                                 <span className='text-[#776df4]'><i className="fa-solid fa-desktop"></i></span>
                             </div>
                             <div className="popu-category-content mt-4">
-                            <a href="" className="text-dark">
+                            <a href="" className="text-dark no-underline">
                                 <h5 className="text-[18px] font-medium">Design &amp; Multimedia</h5>
                             </a>
                             <p className="text-muted mb-0">1045 Jobs</p>
@@ -120,7 +120,7 @@ function Categories() {
                                 <span className='text-[#776df4]'><i className="fa-solid fa-desktop"></i></span>
                             </div>
                             <div className="popu-category-content mt-4">
-                            <a href="" className="text-dark">
+                            <a href="" className="text-dark no-underline">
                                 <h5 className="text-[18px]">Human Resource</h5>
                             </a>
                             <p className="text-muted mb-0">1516 Jobs</p>

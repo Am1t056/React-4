@@ -56,15 +56,15 @@ function Navbar() {
                          <ul className='flex justify-end items-center'>
                           <li className='mr-2 d-block d-lg-none' onClick={handleNav}>{!nav?<AiOutlineMenu size={24}/>:<AiOutlineClose size={24}/>}</li>
                           <li className='mr-4'>
-                            <a  href="">
-                              <FaBell size={23} className='bell'/>
+                            <a className="decoration-none text-[#303438]"  href="">
+                              <FaBell size={23} className='bell text-[#303438]'/>
                             </a>
                             <div className='count absolute text-white text-[11px] top-[12px]  md:top-[12px] bg-[red] border-2 border-2-white'>
                                      3
                                  </div>
                             </li>
                           <li className='mr-2'><a  href=""><img className='w-[35px] h-[35px] rounded-full' src="https://themesdesign.in/jobcy-react/layout/assets/images/profile.jpg" alt="" /></a></li>
-                          <li className='d-none d-md-block'><a className='text-[13px] font-medium w-full' href="">Hi, Jansh</a></li>
+                          <li className='d-none d-md-block'><a className='text-[13px] text-gray-500 font-medium w-full no-underline' href="">Hi, Jansh</a></li>
                          </ul>
 
 

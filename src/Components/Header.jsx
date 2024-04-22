@@ -1,7 +1,6 @@
 
 import React, { useState } from 'react'
-import {LiaFacebookMessenger} from 'react-icons/lia'
-import {PiMessengerLogoBold} from 'react-icons/pi'
+
 
 
 

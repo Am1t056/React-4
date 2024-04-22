@@ -155,7 +155,7 @@ function Jobs() {
                         <div className="col-md-3">
                           <div className="mb-2 mb-md-0">
                             <h5 className="fs-18 mb-1">
-                              <a href="" className="text-dark font-bold">
+                              <a href="" className="text-dark font-bold no-underline">
                                 {a.job}
                               </a>
                             </h5>
@@ -226,7 +226,7 @@ function Jobs() {
                             <a
                               href=""
                               data-bs-toggle="modal"
-                              className="primary-link"
+                              className="primary-link no-underline"
                             >
                               Apply Now{" "}
                               <i className="fa-solid fa-angles-right" />
@@ -277,7 +277,7 @@ function Jobs() {
                         <div className="col-md-3">
                           <div className="mb-2 mb-md-0">
                             <h5 className="fs-18 mb-1">
-                              <a href="" className="text-dark font-bold">
+                              <a href="" className="text-dark font-bold no-underline">
                                 {a.job}
                               </a>
                             </h5>
@@ -348,7 +348,7 @@ function Jobs() {
                             <a
                               href=""
                               data-bs-toggle="modal"
-                              className="primary-link"
+                              className="primary-link no-underline"
                             >
                               Apply Now{" "}
                               <i className="fa-solid fa-angles-right" />
@@ -399,7 +399,7 @@ function Jobs() {
                         <div className="col-md-3">
                           <div className="mb-2 mb-md-0">
                             <h5 className="fs-18 mb-1">
-                              <a href="" className="text-dark font-bold">
+                              <a href="" className="text-dark font-bold no-underline">
                                 {a.job}
                               </a>
                             </h5>
@@ -470,7 +470,7 @@ function Jobs() {
                             <a
                               href=""
                               data-bs-toggle="modal"
-                              className="primary-link"
+                              className="primary-link no-underline"
                             >
                               Apply Now{" "}
                               <i className="fa-solid fa-angles-right" />
@@ -521,7 +521,7 @@ function Jobs() {
                         <div className="col-md-3">
                           <div className="mb-2 mb-md-0">
                             <h5 className="fs-18 mb-1">
-                              <a href="" className="text-dark font-bold">
+                              <a href="" className="text-dark font-bold no-underline">
                                 {a.job}
                               </a>
                             </h5>
@@ -592,7 +592,7 @@ function Jobs() {
                             <a
                               href=""
                               data-bs-toggle="modal"
-                              className="primary-link"
+                              className="primary-link no-underline"
                             >
                               Apply Now{" "}
                               <i className="fa-solid fa-angles-right" />
@@ -642,7 +642,7 @@ function Jobs() {
                         <div className="col-md-3">
                           <div className="mb-2 mb-md-0">
                             <h5 className="fs-18 mb-1">
-                              <a href="" className="text-dark font-bold">
+                              <a href="" className="text-dark font-bold no-underline">
                                 {a.job}
                               </a>
                             </h5>
@@ -713,7 +713,7 @@ function Jobs() {
                             <a
                               href=""
                               data-bs-toggle="modal"
-                              className="primary-link"
+                              className="primary-link no-underline"
                             >
                               Apply Now{" "}
                               <i className="fa-solid fa-angles-right" />

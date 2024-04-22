@@ -10,6 +10,7 @@
 overscroll-behavior:none;
  
 }
+
 ul li a{
   text-decoration: none;
 }
@@ -24,6 +25,7 @@ body{
 }
 .bell{
   position: relative !important;
+  color: #303438;
 }
 .count{
   width: 21px;
@@ -113,6 +115,7 @@ swiper {
 
 .job ul li{
   color:#74788d;
+  list-style: none;
 }
 .bookmark-post .bookmark-label, .job-box.bookmark-post .bookmark-label {
   background-color: #766df4;
@@ -139,6 +142,7 @@ swiper {
 }
 .list-unstyled .about-list li {
   word-break: break-word;
+  list-style: none;
 }
 
 .list-unstyled li::before{

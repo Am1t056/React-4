@@ -38,7 +38,7 @@ function Footer() {
                       </ul>
                 </div>
                 <div className=' col-lg-6 flex flex-wrap justify-between my-0 md:my-2'>
-             <div className='flex items-center flex-col gap-1'>
+             <div className='flex items-center flex-col gap-0'>
                 <h6 className='font-bold  text-[#766df4] text-left'>Solutions</h6>
                 <ul className='text-gray-600 font-medium py-1 px-0'>
                     <li className='py-2 w-full'>Analytics</li>
@@ -50,7 +50,7 @@ function Footer() {
                 </ul>
              </div>
 
-             <div className='flex items-center flex-col gap-1'>
+             <div className='flex items-center flex-col gap-0'>
                 <h6 className='font-bold  text-[#766df4] text-left'>Support</h6>
                 <ul className='text-gray-600 font-medium py-1 px-0'>
                     <li className='py-2 w-full'>Pricing</li>
@@ -61,7 +61,7 @@ function Footer() {
                 </ul>
              </div>
 
-             <div className='flex items-center flex-col gap-1'>
+             <div className='flex items-center flex-col gap-0'>
                 <h6 className='font-bold  text-[#766df4] text-left'>Company</h6>
                 <ul className='text-gray-600 font-medium py-1 px-0'>
                     <li className='py-2 w-full'>About</li>
@@ -74,7 +74,7 @@ function Footer() {
              </div>
 
              
-             <div className='flex items-center flex-col gap-1'>
+             <div className='flex items-center flex-col gap-0'>
                 <h6 className='font-bold  text-[#766df4] text-left'>Legal</h6>
                 <ul className='text-gray-600 font-medium py-1 px-0'>
                     <li className='py-2 w-full'>Policy</li>

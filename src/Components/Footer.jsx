@@ -13,7 +13,7 @@ function Footer() {
                 <div className='flex justify-center items-center lg:col-span-2 flex-nowrap mt-2 md:mt-0'>
                     <form action="">
                     <input className='h-[36px] bg-transparent border rounded-md' type="email" name='email' placeholder='Enter Your Email' />
-                    <button className='btn  bg-[#766df4] hover:bg-[#766df6] text-white' >Subscribe</button>
+                    <button className='py-2 px-4 rounded-md  bg-[#766df4] hover:bg-[#766df6] text-white' >Subscribe</button>
                     </form>
                 </div>
                  
@@ -26,7 +26,7 @@ function Footer() {
             <div className="row flex justify-between">
 
                 <div className='col-lg-6'>
-                      <h1 className='text-[#766df4] text-[22.5px] font-extrabold shadow-2xl '>Jobcy</h1>
+                      <h1 className='text-[#766df4] text-[22.5px] font-extrabold shadow-2xl'>Jobcy</h1>
                       <p className="text-[#f1f0fe] py-2 w-full lg:w-[55%]">It is a long established fact that a reader will be of a page reader will be of at its layout.</p>
                       <p className='text-[14px] text-[#ffffff] font-medium' >Follow Us On:</p>
                       <ul className='flex  items-center py-2 justify-between md:justify-start'>

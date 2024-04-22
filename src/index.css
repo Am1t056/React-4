@@ -157,6 +157,10 @@ swiper {
   background-color: #766df4 !important;
 }
 
+.viewmore a{
+  text-decoration: none !important;
+}
+
 
 .stickynav{
   animation:fadein 0.8s ease-in;

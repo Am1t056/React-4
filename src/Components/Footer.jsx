@@ -5,7 +5,7 @@ function Footer() {
     <>
     <div className='container-fluid bg-[#343c3f] py-5'>
         <div className="container">
-            <div className="row grid lg:grid-cols-3 items-center justify-center">
+            <div className=" grid lg:grid-cols-3 items-center justify-center">
                 <div className=''>
                     <h4 className='text-white font-semibold text-[22.5px]'>Get New Jobs Notification!</h4>
                     <p className=" text-[#f1f0fe] mb-0 text-[15px] py-1">Subscribe &amp; get all related jobs notification.</p>

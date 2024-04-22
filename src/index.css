@@ -153,6 +153,9 @@ swiper {
   margin-right: 5px;
   
 }
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+  background-color: #766df4 !important;
+}
 
 
 .stickynav{

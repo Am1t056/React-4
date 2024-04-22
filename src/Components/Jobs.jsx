@@ -729,7 +729,7 @@ function Jobs() {
                 {/*end job-box*/}
 
                 <div className="text-center mt-4 pt-2 mb-4 hover:translate-x-2 hover:translate-y-[-10px] duration-1000 viewmore">
-                  <a href="" className="p-2 rounded-md text-white bg-[#766df4] hover:bg-[#766df9] no-underline" >
+                  <a href="#" className="p-2 rounded-md text-white bg-[#766df4] hover:bg-[#766df9] no-underline" >
                     View More
                     <i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i>
                   </a>

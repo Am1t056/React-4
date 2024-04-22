@@ -40,11 +40,11 @@ function Footer() {
                 <div className=' col-lg-6 flex flex-wrap justify-between my-0 md:my-2'>
              <div className=''>
                 <h6 className='font-bold  text-[#766df4]'>Solutions</h6>
-                <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
-                    <li className='py-2'>Analytics</li>
-                    <li className='py-2'>Marketing</li>
-                    <li className='py-2'>Commerce</li>
-                    <li className='py-2'>Insights</li>
+                <ul className='text-gray-600 font-medium py-1'>
+                    <li className='py-2 w-full'>Analytics</li>
+                    <li className='py-2 w-full'>Marketing</li>
+                    <li className='py-2 w-full'>Commerce</li>
+                    <li className='py-2 w-full'>Insights</li>
                     
 
                 </ul>
@@ -52,10 +52,10 @@ function Footer() {
 
              <div className=''>
                 <h6 className='font-bold  text-[#766df4]'>Support</h6>
-                <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
-                    <li className='py-2'>Pricing</li>
-                    <li className='py-2'>Guides</li>
-                    <li className='py-2'>API Status</li>
+                <ul className='text-gray-600 font-medium py-1'>
+                    <li className='py-2 w-full'>Pricing</li>
+                    <li className='py-2 w-full'>Guides</li>
+                    <li className='py-2 w-full'>API Status</li>
                     
 
                 </ul>
@@ -63,11 +63,11 @@ function Footer() {
 
              <div className=''>
                 <h6 className='font-bold  text-[#766df4]'>Company</h6>
-                <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
-                    <li className='py-2'>About</li>
-                    <li className='py-2'>Blog</li>
-                    <li className='py-2'>Jobs</li>
-                    <li className='py-2'>Careers</li>
+                <ul className='text-gray-600 font-medium py-1'>
+                    <li className='py-2 w-full'>About</li>
+                    <li className='py-2 w-full'>Blog</li>
+                    <li className='py-2 w-full'>Jobs</li>
+                    <li className='py-2 w-full'>Careers</li>
                     
 
                 </ul>
@@ -76,10 +76,10 @@ function Footer() {
              
              <div className=''>
                 <h6 className='font-bold  text-[#766df4]'>Legal</h6>
-                <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
-                    <li className='py-2'>Policy</li>
-                    <li className='py-2'>Claim</li>
-                    <li className='py-2'>Terms</li>
+                <ul className='text-gray-600 font-medium py-1'>
+                    <li className='py-2 w-full'>Policy</li>
+                    <li className='py-2 w-full'>Claim</li>
+                    <li className='py-2 w-full'>Terms</li>
                   
                     
 

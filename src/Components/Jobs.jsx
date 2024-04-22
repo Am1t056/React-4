@@ -244,7 +244,7 @@ function Jobs() {
                 <div className="text-center mt-4 pt-2 mb-4 hover:translate-x-2 hover:translate-y-[-10px] duration-1000">
                   <a
                     href=""
-                    className="btn btn-primary text-white bg-[#766df4] hover:bg-[#766df9]"
+                    className="btn  text-white bg-[#766df4] hover:bg-[#766df9]"
                   >
                     View More
                     <i className="fa-solid fa-arrow-right text-white text-[12px] px-1"></i>

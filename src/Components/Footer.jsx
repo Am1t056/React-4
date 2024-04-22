@@ -38,7 +38,7 @@ function Footer() {
                       </ul>
                 </div>
                 <div className=' col-lg-6 flex flex-wrap justify-between my-0 md:my-2'>
-             <div className='flex  flex-col'>
+             <div className=''>
                 <h6 className='font-bold  text-[#766df4]'>Solutions</h6>
                 <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>Analytics</li>
@@ -50,7 +50,7 @@ function Footer() {
                 </ul>
              </div>
 
-             <div className='flex  flex-col'>
+             <div className=''>
                 <h6 className='font-bold  text-[#766df4]'>Support</h6>
                 <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>Pricing</li>
@@ -61,7 +61,7 @@ function Footer() {
                 </ul>
              </div>
 
-             <div className='flex  flex-col'>
+             <div className=''>
                 <h6 className='font-bold  text-[#766df4]'>Company</h6>
                 <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>About</li>
@@ -74,7 +74,7 @@ function Footer() {
              </div>
 
              
-             <div className='flex  flex-col'>
+             <div className=''>
                 <h6 className='font-bold  text-[#766df4]'>Legal</h6>
                 <ul className='text-gray-600 font-medium py-1 flex justify-center flex-col'>
                     <li className='py-2'>Policy</li>
